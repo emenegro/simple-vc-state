@@ -41,16 +41,13 @@ final class BookListViewController: UIViewController, LoadingHandler {
     }
     
     private func notifyAfterWait() {
-        let settings = Settings.shared
-        switch settings.initialState {
-        case .empty,
-             .error where settings.didRetry && settings.showEmptyAfterRetry:
+        switch Settings.shared.state {
+        case .empty:
             self.delegate?.didReceiveNoData()
-        case .content,
-             .error where settings.didRetry && settings.showContentAfterRetry:
-            break // Does nothing, shows content as fallback
         case .error:
             self.delegate?.didFailFetching()
+        default:
+            break // Do nothing, shows content
         }
     }
     

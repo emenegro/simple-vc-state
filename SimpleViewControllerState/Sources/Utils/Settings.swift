@@ -11,15 +11,19 @@ import Foundation
 final class Settings {
     static let shared = Settings()
     
-    var initialState: State = .content
+    var stateAfterLoading: State = .content
+    var stateAfterRetry: State = .content
     var didRetry: Bool = false
-    var showContentAfterRetry: Bool = false
-    var showEmptyAfterRetry: Bool = false
+    
+    var state: State {
+        if didRetry {
+            return stateAfterRetry
+        } else {
+            return stateAfterLoading
+        }
+    }
     
     func reset() {
-        initialState = .content
         didRetry = false
-        showContentAfterRetry = false
-        showEmptyAfterRetry = false
     }
 }

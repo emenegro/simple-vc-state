@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum State {
+enum State: Int {
     case content
     case error
     case empty

@@ -17,12 +17,12 @@
 		C89BC214222D2BA000D977CA /* StateContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC213222D2BA000D977CA /* StateContainerViewController.swift */; };
 		C89BC216222D2C2C00D977CA /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC215222D2C2C00D977CA /* UIViewController+Extensions.swift */; };
 		C89BC218222D2E3500D977CA /* BooksStateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC217222D2E3500D977CA /* BooksStateProvider.swift */; };
-		C89BC21C222D3FAC00D977CA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC21B222D3FAC00D977CA /* MenuViewController.swift */; };
 		C89BC21E222D4CE100D977CA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC21D222D4CE100D977CA /* Settings.swift */; };
 		C89BC224222D77AE00D977CA /* StateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC223222D77AE00D977CA /* StateProvider.swift */; };
 		C89BC227222D78E000D977CA /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC226222D78E000D977CA /* UIStoryboard+Extensions.swift */; };
 		C89BC229222E94B900D977CA /* LoadingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC228222E94B900D977CA /* LoadingHandler.swift */; };
 		C89BC22E222EC51300D977CA /* StateChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC22D222EC51300D977CA /* StateChanger.swift */; };
+		C89BC230222FCB8200D977CA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC22F222FCB8200D977CA /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +38,12 @@
 		C89BC213222D2BA000D977CA /* StateContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContainerViewController.swift; sourceTree = "<group>"; };
 		C89BC215222D2C2C00D977CA /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		C89BC217222D2E3500D977CA /* BooksStateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksStateProvider.swift; sourceTree = "<group>"; };
-		C89BC21B222D3FAC00D977CA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C89BC21D222D4CE100D977CA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		C89BC223222D77AE00D977CA /* StateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProvider.swift; sourceTree = "<group>"; };
 		C89BC226222D78E000D977CA /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
 		C89BC228222E94B900D977CA /* LoadingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingHandler.swift; sourceTree = "<group>"; };
 		C89BC22D222EC51300D977CA /* StateChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateChanger.swift; sourceTree = "<group>"; };
+		C89BC22F222FCB8200D977CA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				C89BC1FB222D273100D977CA /* AppDelegate.swift */,
-				C89BC21B222D3FAC00D977CA /* MenuViewController.swift */,
+				C89BC22F222FCB8200D977CA /* SettingsViewController.swift */,
 				C89BC225222D78D100D977CA /* State */,
 				C89BC221222D576400D977CA /* Books */,
 				C89BC222222D577B00D977CA /* Utils */,
@@ -225,10 +225,10 @@
 				C89BC216222D2C2C00D977CA /* UIViewController+Extensions.swift in Sources */,
 				C89BC229222E94B900D977CA /* LoadingHandler.swift in Sources */,
 				C89BC22E222EC51300D977CA /* StateChanger.swift in Sources */,
+				C89BC230222FCB8200D977CA /* SettingsViewController.swift in Sources */,
 				C89BC21E222D4CE100D977CA /* Settings.swift in Sources */,
 				C89BC1FC222D273100D977CA /* AppDelegate.swift in Sources */,
 				C89BC227222D78E000D977CA /* UIStoryboard+Extensions.swift in Sources */,
-				C89BC21C222D3FAC00D977CA /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
